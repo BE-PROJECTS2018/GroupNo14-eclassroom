@@ -1,0 +1,9 @@
+package com.example.dell.Educators_App;
+
+/**
+ * Created by DELL on 25-06-2017.
+ */
+
+enum WIFI_AP_STATE {
+    WIFI_AP_STATE_DISABLING, WIFI_AP_STATE_DISABLED, WIFI_AP_STATE_ENABLING,  WIFI_AP_STATE_ENABLED, WIFI_AP_STATE_FAILED
+}

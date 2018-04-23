@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:fillViewport="true"
+    >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="#fff"
+        android:layout_gravity="center">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dip"
+            android:weightSum="1">
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:textStyle="bold"
+                android:text="Subject Name"
+                />
+
+            <EditText
+               android:layout_width="360dp"
+               android:layout_height="80dp"
+               android:text=""
+                android:id="@+id/clas"/>
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:textStyle="bold"
+                android:text="Class Name"
+                />
+
+            <EditText
+                android:id="@+id/et1"
+                android:layout_width="360dp"
+                android:layout_height="80dp"
+                android:text=""
+                />
+
+            <Button
+                android:id="@+id/create"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:text="Create attendance"
+                android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+        android:text="Start attendance"
+        android:enabled="false"
+        android:layout_gravity="center_horizontal"
+
+       />
+
+            <Button
+                android:id="@+id/STOP"
+                android:layout_width="360dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:enabled="false"
+                android:text=" STOP ATTENDANCE" />
+
+            <Button
+                android:id="@+id/manually"
+                android:layout_width="360dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:enabled="false"
+                android:text="Add Attendance Manually"/>
+
+        </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
